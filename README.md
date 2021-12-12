@@ -1,9 +1,11 @@
 # Домашнее задание к занятию "3.9. Элементы безопасности информационных систем"
 
 ## 1. Установите Bitwarden плагин для браузера. Зарегестрируйтесь и сохраните несколько паролей.
-![Bitwarden](https://user-images.githubusercontent.com/92984527/145699362-0c67e88a-45e2-4ba3-8ce7-fba4fb909a64.png)
+![Bitwarden](https://user-images.githubusercontent.com/92984527/145699393-6c00647a-82ce-4ffe-aa70-0299569e2757.png)
 ## 2. Установите Google authenticator на мобильный телефон. Настройте вход в Bitwarden акаунт через Google authenticator OTP.
+![BitwardenG](https://user-images.githubusercontent.com/92984527/145699775-838c2b78-4839-4025-8f1b-7f3581f61cf6.png)
 
+![BitwardenG2](https://user-images.githubusercontent.com/92984527/145699766-49db815c-6b22-4177-ab4b-d7e72a9e1ded.png)
 ## 3. Установите apache2, сгенерируйте самоподписанный сертификат, настройте тестовый сайт для работы по HTTPS.
 
 ## 4. Проверьте на TLS уязвимости произвольный сайт в интернете (кроме сайтов МВД, ФСБ, МинОбр, НацБанк, РосКосмос, РосАтом, РосНАНО и любых госкомпаний, объектов КИИ, ВПК ... и тому подобное).
