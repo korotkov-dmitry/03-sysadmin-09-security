@@ -110,10 +110,8 @@
     Hi korotkov-dmitry! You've successfully authenticated, but GitHub does not provide shell access.
     Connection to github.com closed.`
 ## 7. Соберите дамп трафика утилитой tcpdump в формате pcap, 100 пакетов. Откройте файл pcap в Wireshark.
-
- ---
-## Задание для самостоятельной отработки (необязательно к выполнению)
-
-8*. Просканируйте хост scanme.nmap.org. Какие сервисы запущены?
-
-9*. Установите и настройте фаервол ufw на web-сервер из задания 3. Откройте доступ снаружи только к портам 22,80,443
+    `vagrant@vagrant:~$ sudo tcpdump -c 100 -w file.pcap
+    tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+    100 packets captured
+    112 packets received by filter
+    0 packets dropped by kernel`
